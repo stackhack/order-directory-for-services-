@@ -1,0 +1,184 @@
+
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #6666;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+.overlay {overflow-y: auto;}
+.overlay a {font-size: 20px}
+.overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+}
+
+/*=== nav === */
+@import url('https://fonts.googleapis.com/css?family=Princess+Sofia');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+/* UNIVERSAL */
+* {
+  transition-duration: 0.2s;
+}
+.min-height {
+  min-height: 600px;
+}
+.primary-font {
+  font-family: 'Princess Sofia', cursive;
+}
+.secondary-font {
+  font-family: 'Amatic SC', cursive;
+}
+.white-text {
+  color: #FFFFFF;
+}
+.orange-text {
+  color: #F8512F;
+}
+.thin-text {
+  font-weight: 300;
+}
+.thick-text {
+  font-weight: 700;
+}
+.orange-bg {
+  background-color: #F8512F;
+}
+/*=== nav === */
+
+/*carosel styles*/
+
+.item {
+  height: 550px;
+  background-size:cover;
+  background-position: center;
+
+}
+#budda1-bg {
+  background-image: url('../img/budda1.jpg');
+
+
+}
+#carousel-logo {
+  height: 200px;
+}
+.flex-wrapper {
+  height: 100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-shadow: 2px 2px #111111;
+
+
+}
+#yogasmoke-bg {
+  background-image: url('../img/yogasmoke.jpg');
+
+}
+#eyeopen-bg {
+  background-image: url('../img/eyeopen.jpg');
+}
+.carousel-caption{
+  padding-bottom: 10em;
+}
+.btn-warning{
+  background-color: #f8512f
+}
+
+.btn-warning:hover {
+  background-color: #f8512f
+}
+.year-text{
+  position: absolute;
+  z-index: 0;
+}
+
+/*OUR STORY*/
+#our_story .row{
+  margin-top:30px;
+}
+#our_story h1 {
+  font-size:6em;
+  margin-top: 0;
+  text-shadow: 1px 1px 2px #f8512f;
+}
+
+#our_story h3 {
+  font-size:2em;
+  margin-top: 0;
+}
+.story-year{
+  font-family: 'playfair display',serif;
+  font-size:300px;
+  position: absolute;
+  z-index: -1;
+  color: rgba(149, 147, 111, 0.2);
+
+}
+#review {
+  background-image: url("../img/girl3.jpg");
+  background-attachment:fixed;
+  background-size: cover;
+}
+#review .center  {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.review-container {
+  padding: 10px 15px;
+  background-color:rgba(20, 20, 20, 0.6);
+  border-radius: 4px;
+}
+.review-container h1 {
+  font-size: 5em;
+  text-shadow: 1px 1px 5px #0a0a0a;
+}
+.review-container p {
+  font-size: 2em;
+  text-shadow: 1px 1px 5px #0a0a0a;
+}
+#classes{
+  background-image: url('../img/cat1.jpg');
+}
+
+#classes h1 {
+  font-size: 5em;
+}

@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Princess+Sofia');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+/* UNIVERSAL */
+* {
+  transition-duration: 0.2s;
+}
+.min-height {
+  min-height: 600px;
+}
+.primary-font {
+  font-family: 'Princess Sofia', cursive;
+    text-shadow: 1px 1px 5px #849dbf;
+}
+.secondary-font {
+  font-family: 'Amatic SC', cursive;
+
+}
+.white-text {
+  color: #FFFFFF;
+    text-shadow: 1px 1px 5px #849dbf;
+}
+.orange-text {
+  color: #849dbf;
+}
+.thin-text {
+  font-weight: 300;
+}
+.thick-text {
+  font-weight: 700;
+}
+.orange-bg {
+  background-color: #849dbf;
+}
+/*=== nav === */
+
+
+.navbar-inverse {
+  background-color: transparent;
+  border: none;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+background-color: rgba (0,0,0, .75);
+text-shadow: 2px 2px 2px #000
+}
+.navbar-inverse .navbar-nav>li>a{
+  color:#fff
+
+}
+
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+  background-color: rgba(0,0,0,.25)
+color:#f8512f; /* base Orange */
+}
+/*carosel styles*/
+
+.item {
+  height: 550px;
+  background-size:cover;
+  background-position: center;
+
+}
+#budda1-bg {
+  background-image: url('../img/budda1.jpg');
+
+
+}
+#carousel-logo {
+  height: 200px;
+}
+.flex-wrapper {
+  height: 100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-shadow: 2px 2px #111111;
+
+
+}
+#yogasmoke-bg {
+  background-image: url('../img/yogasmoke.jpg');
+
+}
+#eyeopen-bg {
+  background-image: url('../img/eyeopen.jpg');
+}
+.carousel-caption{
+  padding-bottom: 10em;
+}
+.btn-warning{
+  background-color: #849dbf
+}
+
+.btn-warning:hover {
+  background-color: #849dbf
+}
+.year-text{
+  position: absolute;
+  z-index: 0;
+}
+#ganja h1 {  font-family: 'playfair display',serif;
+  font-size:300px;
+  position: absolute;
+  z-index: -1;
+  color: rgba(149, 147, 111, 0.2);
+
+}
+/*OUR STORY*/
+#our_story .row{
+  margin-top:30px;
+}
+#our_story h1 {
+  font-size:6em;
+  margin-top: 0;
+  text-shadow: 1px 1px 2px #f8512f;
+}
+
+#our_story h3 {
+  font-size:2em;
+  margin-top: 0;
+}
+.story-year{
+  font-family: 'playfair display',serif;
+  font-size:300px;
+  position: absolute;
+  z-index: -1;
+  color: rgba(149, 147, 111, 0.2);
+
+}
+#review {
+  background-image: url("../img/girl3.jpg");
+  background-attachment:fixed;
+  background-size: cover;
+}
+#review .center  {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.review-container {
+  padding: 10px 15px;
+  background-color:rgba(20, 20, 20, 0.6);
+  border-radius: 4px;
+}
+.review-container h1 {
+  font-size: 5em;
+  text-shadow: 1px 1px 5px #0a0a0a;
+}
+.review-container p {
+  font-size: 2em;
+  text-shadow: 1px 1px 5px #0a0a0a;
+}
+#classes{
+  background-image: url('../img/girl1.jpg');
+  height: 500px;
+}
+
+#classes h1 {
+  font-size: 5em;
+}
+.form {
+  height:400px;
+background-color:rgba(20, 20, 20, 0.6);
+  text-shadow: 1px 1px 5px #0a0a0a;
+  border-radius: 8px;
+
+}
+.footer {
+  height:400px;
+  background-color:rgba(20, 20, 20, 0.6);
+    text-shadow: 1px 1px 5px #0a0a0a;
+    border-radius: 8px;
+}
