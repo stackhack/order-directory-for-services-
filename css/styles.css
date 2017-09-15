@@ -84,6 +84,27 @@ color:#f8512f; /* base Orange */
 #eyeopen-bg {
   background-image: url('../img/eyeopen.jpg');
 }
+#clouds-bg {
+  background-image: url('../img/clouds.jpg');
+}
+#smbudda-bg {
+  background-image: url('../img/smbudda.jpg');
+}
+#space-bg {
+  background-image: url('../img/space.jpg');
+}
+#blows-bg {
+  background-image: url('../img/blows.jpg');
+
+}
+#ganjaleaf-bg {
+  background-image: url('../img/ganjaleaf.jpg');
+
+}
+#lion-bg {
+  background-image: url('../img/lion.jpg');
+
+}
 .carousel-caption{
   padding-bottom: 10em;
 }
@@ -172,7 +193,7 @@ background-color:rgba(20, 20, 20, 0.6);
 .footer {
   background-color:#333;
         clear: left;
-      
+
 }
  #copyright{ color: #fff;
  }
