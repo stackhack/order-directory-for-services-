@@ -101,7 +101,7 @@ color:#f8512f; /* base Orange */
   background-image: url('../img/ganjaleaf.jpg');
 
 }
-#lion-bg {
+#lions-bg {
   background-image: url('../img/lion.jpg');
 
 }
@@ -174,6 +174,8 @@ color:#f8512f; /* base Orange */
 }
 #classes{
   background-image: url('../img/girl1.jpg');
+  background-attachment:fixed;
+  background-size: cover;
   height: 500px;
 }
 
