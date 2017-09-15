@@ -127,6 +127,7 @@ color:#f8512f; /* base Orange */
   color: rgba(149, 147, 111, 0.2);
 
 }
+
 #review {
   background-image: url("../img/girl3.jpg");
   background-attachment:fixed;
@@ -158,6 +159,7 @@ color:#f8512f; /* base Orange */
 #classes h1 {
   font-size: 5em;
 }
+
 .form {
   height:400px;
 background-color:rgba(20, 20, 20, 0.6);
@@ -165,9 +167,12 @@ background-color:rgba(20, 20, 20, 0.6);
   border-radius: 8px;
 
 }
+
+
 .footer {
-  height:400px;
-  background-color:rgba(20, 20, 20, 0.6);
-    text-shadow: 1px 1px 5px #0a0a0a;
-    border-radius: 8px;
+  background-color:#333;
+        clear: left;
+      
 }
+ #copyright{ color: #fff;
+ }
